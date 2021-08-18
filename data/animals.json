@@ -126,6 +126,24 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "thomas",
+      "species": "bear",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "thomas",
+      "species": "bear",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "14"
     }
   ]
 }
