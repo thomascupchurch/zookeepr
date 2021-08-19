@@ -12,7 +12,8 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 app.use(express.static('public'));
-const { animals } = require('./data/animals');
+const { animals } = require('./data/animals.json');
+const { zookeepers } = require('./data/zookeepers.json')
 
 
 
