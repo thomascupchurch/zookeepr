@@ -18,7 +18,7 @@ const printResults = resultArr => {
     `;
   });
 
-  $displayArea.innerHTML = animalHTML.join('');
+  $displayArea.innerHTML = zookeeperHTML.join('');
 };
 
 const getZookeepers = (formData = {}) => {
@@ -55,5 +55,6 @@ const handleGetZookeepersSubmit = event => {
   getZookeepers(zookeeperObject);
 };
 
-$zookeeperForm.addEventListener('submit', handleGetZookeepersZubmit);
+$zookeeperForm.addEventListener('submit', handleGetZookeepersSubmit);
+
 getZookeepers();
